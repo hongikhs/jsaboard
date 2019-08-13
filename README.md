@@ -2,10 +2,15 @@
 주소아 센서보드를 파이썬에서 사용하기
 
 다음 링크의 코드를 주소아 센서보드에 맞게 수정하였습니다.
-https://sites.google.com/site/helloboardwiki/software/python-library
+<pre>https://sites.google.com/site/helloboardwiki/software/python-library</pre>
 
-jsaboard.py : 주소아 센서보드 구형(스크래치 1.4)
-jsaboard2.py : 주소아 센서보드 신형(스크래치 2.0)
+테스트 환경
+<pre>Python 3.7
+pyserial 3.4</pre>
+
+파일 목록
+<pre>jsaboard.py : 주소아 센서보드 구형(스크래치 1.4)
+jsaboard2.py : 주소아 센서보드 신형(스크래치 2.0)</pre>
 
 사용법
 <pre>>>> s = ScratchBoard('COM4')
